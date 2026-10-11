@@ -1,0 +1,35 @@
+{
+    "name": "Anagramma",
+    "short_name": "Anagramma",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F2EFE6",
+    "theme_color": "#F2EFE6",
+    "description": "Turn chaos into words. Start with four letters and work your way to twelve.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
