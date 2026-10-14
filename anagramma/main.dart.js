@@ -44960,10 +44960,10 @@ r=this.c
 r.toString
 if(A.d9(r,!1,o).bg)return new A.vp(a.a,n,n)
 return n},
-ahO(a){var s,r=a.e===3,q=this.a.c,p=r?"Got it":"Next",o=r?a.gB4():a.gZK()
+ahO(a){var s,r=a.e===3,q=this.a.c,p=r?a.gB4():a.gZK()
 if(!r)s=new A.jt("Back",a.gB4(),B.bK,B.a5z)
 else{s=a.d
-s=!s?new A.jt("Full guide in Help",new A.apN(a,q),B.bK,B.a5A):null}return new A.hj(new A.hS(p,o,B.a5B),s,null)},
+s=!s?new A.jt("Full guide in Help",new A.apN(a,q),B.bK,B.a5A):null}return new A.hj(new A.hS("Next",p,B.a5B),s,null)},
 aeG(a){var s,r,q,p=this,o=null,n="Continue",m="Back",l=a.aP
 if(l!=null&&a.aH.h(0,l)!=null)return new A.hj(new A.hS(n,new A.apG(p,a,l),B.a5f),A.bJ(A.b([new A.jt("Abandon",new A.apH(p,a,l),B.iM,B.a5M),new A.jt(m,new A.apI(p,a),B.bK,B.DB)],t.p),B.q,B.l,B.aB,8),o)
 s=p.c
