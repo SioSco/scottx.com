@@ -2,7 +2,7 @@ Anagramma word lists: sources and notices
 =========================================
 
 The Spoken, Written and Dictionary Lexicons (assets/word_banks/spoken,
-written and normal/v2) are built by tools/build_dictionary_tiers.py from:
+written and normal/v1) are built by tools/build_dictionary_tiers.py from:
 
 - SCOWL (Spell Checker Oriented Word Lists), 2020.12.07, by Kevin
   Atkinson: which words, and how common each one is.
