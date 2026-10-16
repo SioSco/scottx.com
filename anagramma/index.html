@@ -60,6 +60,15 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <!-- While the game loads: its name, set like a title page, on the same
+       paper. Removed as soon as the game draws its first frame. -->
+  <div id="loading" aria-hidden="true" style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 40px; color: #505551; letter-spacing: 1px;">Anagramma</div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var loading = document.getElementById('loading');
+      if (loading) loading.remove();
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
