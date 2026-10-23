@@ -63,9 +63,9 @@
   <!-- While the game loads: the same row of full stops the game itself shows
        (lib/widgets/loading_dots.dart): one to ten, one more every half
        second, the width of all ten reserved from the start, at the top where
-       the title goes, on the same paper. Removed as soon as the game draws its
-       first frame. -->
-  <div id="loading" aria-hidden="true" style="position: fixed; top: 0; left: 0; right: 0; padding: calc(12px + env(safe-area-inset-top)) 16px 12px; display: flex; justify-content: center;">
+       the title goes, on the same paper. Taken down by the game when its own
+       screen is ready. -->
+  <div id="loading" aria-hidden="true" style="position: fixed; inset: 0; z-index: 10; background: #F2EFE6; padding: calc(12px + env(safe-area-inset-top)) 16px 12px; display: flex; justify-content: center; align-items: flex-start;">
     <div style="height: 150px; display: flex; align-items: center; font-family: sans-serif; font-size: 38px; font-weight: 900; line-height: 1; letter-spacing: 6px; color: #202321; white-space: nowrap;"><span id="loading-shown">.</span><span id="loading-rest" style="color: transparent;">.........</span></div>
   </div>
   <script>
@@ -80,10 +80,13 @@
         rest.textContent = '.'.repeat(10 - count);
       }, 500);
     })();
-    window.addEventListener('flutter-first-frame', function () {
+    // The game takes the dots down itself (lib/services/page_loading.dart)
+    // once its own screen is ready, so the dots run on, unbroken, to the
+    // title. This is only a safety net should the game never come up.
+    setTimeout(function () {
       var loading = document.getElementById('loading');
       if (loading) loading.remove();
-    });
+    }, 60000);
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
