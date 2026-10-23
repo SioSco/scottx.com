@@ -60,10 +60,26 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
-  <!-- While the game loads: its name, set like a title page, on the same
-       paper. Removed as soon as the game draws its first frame. -->
-  <div id="loading" aria-hidden="true" style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 40px; color: #505551; letter-spacing: 1px;">Anagramma</div>
+  <!-- While the game loads: the same row of full stops the game itself shows
+       (lib/widgets/loading_dots.dart): one to ten, one more every half
+       second, the width of all ten reserved from the start, at the top where
+       the title goes, on the same paper. Removed as soon as the game draws its
+       first frame. -->
+  <div id="loading" aria-hidden="true" style="position: fixed; top: 0; left: 0; right: 0; padding: calc(12px + env(safe-area-inset-top)) 16px 12px; display: flex; justify-content: center;">
+    <div style="height: 150px; display: flex; align-items: center; font-family: sans-serif; font-size: 38px; font-weight: 900; line-height: 1; letter-spacing: 6px; color: #202321; white-space: nowrap;"><span id="loading-shown">.</span><span id="loading-rest" style="color: transparent;">.........</span></div>
+  </div>
   <script>
+    (function () {
+      var shown = document.getElementById('loading-shown');
+      var rest = document.getElementById('loading-rest');
+      var count = 1;
+      var timer = setInterval(function () {
+        if (!shown || !rest || count >= 10) { clearInterval(timer); return; }
+        count++;
+        shown.textContent = '.'.repeat(count);
+        rest.textContent = '.'.repeat(10 - count);
+      }, 500);
+    })();
     window.addEventListener('flutter-first-frame', function () {
       var loading = document.getElementById('loading');
       if (loading) loading.remove();
