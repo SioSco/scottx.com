@@ -29817,7 +29817,7 @@ a25(a,b){return A.b5v(a,b)},
 b5v(a,b){var s=0,r=A.v(t.N),q,p,o,n
 var $async$a25=A.q(function(c,d){if(c===1)return A.r(d,r)
 for(;;)switch(s){case 0:p=$.yy
-o=A.b6o(p.tl(a),"20261103.4c81779")
+o=A.b6o(p.tl(a),"20261103.52a1381")
 s=3
 return A.h(A.fS(v.G.window.fetch(o),t.m),$async$a25)
 case 3:n=d
@@ -49130,7 +49130,7 @@ bF(){this.cq()
 this.ck()
 this.eD()}}
 A.NT.prototype={
-C(b4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=null,a="Settings",a0="How to Play",a1="escape",a2="enter",a3=new A.ab9(),a4=new A.ab6(),a5=new A.ab5(),a6=new A.aba(),a7=new A.ab0(),a8=new A.ab7(),a9=new A.ab3(),b0=[new A.bf("Home",a8.$1(B.tO),b),new A.bf(a,a8.$1(B.tQ),b),new A.bf("Awards",a8.$1(B.tN),b),new A.bf("Record",a8.$1(B.tG),b),new A.bf("Help",a8.$1(B.tF),b),new A.bf("Run Summary",a8.$1(B.tP),a1),B.a0i,B.a0P,new A.bf("View",a9.$1(B.tR),b),new A.bf("Play",a9.$1(B.dH),b),new A.bf("Play on Settings",a7.$2(B.dH,B.cu),a2),new A.bf("Resume",a9.$1(B.dH),b),new A.bf(a0,a9.$1(B.nC),"F1"),new A.bf("Share",a7.$2(B.nD,B.bq),b),new A.bf("Copy",a7.$2(B.hD,B.bq),b),new A.bf("Paste",a7.$2(B.nB,B.bq),b),new A.bf("Tap Tile",a6.$1("Letters"),"a\u2013z"),new A.bf("Undo",a7.$2(B.tK,B.cu),"backspace"),new A.bf("Clear",a7.$2(B.tM,B.dG),"delete"),new A.bf("Hint",a7.$2(B.nA,B.ti),"space"),new A.bf("Pause",a7.$2(B.tI,B.bq),a1),new A.bf("Continue",a7.$2(B.ty,B.cu),a2),new A.bf("Up",a7.$2(B.tz,B.cu),"\u2191"),new A.bf("Back",a7.$2(B.hC,B.cu),a1),new A.bf("Yes",a7.$2(B.tA,B.dG),a2),new A.bf("No",a7.$2(B.k2,B.bq),a1),new A.bf("Restart",a7.$2(B.tJ,B.dG),"shift + home"),new A.bf("Abandon",a7.$2(B.tL,B.dG),"shift + end")],b1=new A.ab8(),b2=t.hT,b3=A.a([],b2)
+C(b4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=null,a="Settings",a0="How to Play",a1="escape",a2="enter",a3=new A.ab9(),a4=new A.ab6(),a5=new A.ab5(),a6=new A.aba(),a7=new A.ab0(),a8=new A.ab7(),a9=new A.ab3(),b0=[new A.bf("Home",a8.$1(B.tO),b),new A.bf(a,a8.$1(B.tQ),b),new A.bf("Awards",a8.$1(B.tN),b),new A.bf("Record",a8.$1(B.tG),b),new A.bf("Help",a8.$1(B.tF),b),new A.bf("Run Summary",a8.$1(B.tP),a1),B.a0i,B.a0P,new A.bf("View",a9.$1(B.tR),b),new A.bf("Play",a9.$1(B.dH),b),new A.bf("Resume",a9.$1(B.dH),b),new A.bf(a0,a9.$1(B.nC),"F1"),new A.bf("Share",a7.$2(B.nD,B.bq),b),new A.bf("Copy",a7.$2(B.hD,B.bq),b),new A.bf("Paste",a7.$2(B.nB,B.bq),b),new A.bf("Tap Tile",a6.$1("Letters"),"a\u2013z"),new A.bf("Undo",a7.$2(B.tK,B.cu),"backspace"),new A.bf("Clear",a7.$2(B.tM,B.dG),"delete"),new A.bf("Hint",a7.$2(B.nA,B.ti),"space"),new A.bf("Play",a7.$2(B.dH,B.cu),a2),new A.bf("Pause",a7.$2(B.tI,B.bq),a1),new A.bf("Continue",a7.$2(B.ty,B.cu),a2),new A.bf("Up",a7.$2(B.tz,B.cu),"\u2191"),new A.bf("Back",a7.$2(B.hC,B.cu),a1),new A.bf("Yes",a7.$2(B.tA,B.dG),a2),new A.bf("No",a7.$2(B.k2,B.bq),a1),new A.bf("Restart",a7.$2(B.tJ,B.dG),"shift + home"),new A.bf("Abandon",a7.$2(B.tL,B.dG),"shift + end")],b1=new A.ab8(),b2=t.hT,b3=A.a([],b2)
 for(s=t.p,r=0;r<28;++r){q=b0[r]
 p=q.c
 o=b1.$2$alignment(a6.$1(q.a),B.d_)
@@ -49242,7 +49242,7 @@ return this.a.$5$centredHeaders$key(s,this.b,r,B.a1Z,B.aaZ)},
 $S:100}
 A.SQ.prototype={
 C(a){var s=null
-return new A.ap(B.O9,A.bj(A.a([B.a1g,B.aJ,A.a8("Anagramma 1.0.0 ("+B.c.x3("20261103.4c81779",".","\xb7")+")",s,s,s,s,s,B.A,s,s,s),B.aJ,A.a8("What\u2019s new: copy and paste all your progress from Settings, a clearer run header and Help, goals shown to new players, a shared result that names its day, a bigger board on desktop, new toggles and menus, and clear messages if the word lists can\u2019t load.",s,s,s,s,s,B.bI,s,s,s),B.aJ,A.a8("Word lists from SCOWL by Kevin Atkinson. Definitions from WordNet 3.0, Copyright 2006 by Princeton University.",s,s,s,s,s,B.bI,s,s,s),B.bi,new A.oO(A.hi("mailto:anagramma.game@outlook.com",0,s),"Found a bug? Have an idea?",new A.aoC(),B.ab_),new A.oO(s,"Licences",new A.aoD(a),B.ab1),new A.oO(A.hi("https://scottx.com/anagramma/privacy/",0,s),"Privacy policy",new A.aoE(),B.ab2)],t.p),B.a1,s,B.k,B.m),s)}}
+return new A.ap(B.O9,A.bj(A.a([B.a1g,B.aJ,A.a8("Anagramma 1.0.0 ("+B.c.x3("20261103.52a1381",".","\xb7")+")",s,s,s,s,s,B.A,s,s,s),B.aJ,A.a8("What\u2019s new: copy and paste all your progress from Settings, a clearer run header and Help, goals shown to new players, a shared result that names its day, a bigger board on desktop, new toggles and menus, and clear messages if the word lists can\u2019t load.",s,s,s,s,s,B.bI,s,s,s),B.aJ,A.a8("Word lists from SCOWL by Kevin Atkinson. Definitions from WordNet 3.0, Copyright 2006 by Princeton University.",s,s,s,s,s,B.bI,s,s,s),B.bi,new A.oO(A.hi("mailto:anagramma.game@outlook.com",0,s),"Found a bug? Have an idea?",new A.aoC(),B.ab_),new A.oO(s,"Licences",new A.aoD(a),B.ab1),new A.oO(A.hi("https://scottx.com/anagramma/privacy/",0,s),"Privacy policy",new A.aoE(),B.ab2)],t.p),B.a1,s,B.k,B.m),s)}}
 A.aoC.prototype={
 $0(){return A.aFb(A.hi("mailto:anagramma.game@outlook.com",0,null),B.u0)},
 $S:0}
