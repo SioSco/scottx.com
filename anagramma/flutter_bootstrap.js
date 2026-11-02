@@ -49,6 +49,26 @@ _flutter.buildConfig = {"engineRevision":"a804b261645ef8c13eb3d5c44a5c2fb0340c55
 //   character the bundled fonts lack (an emoji in a player name, say)
 //   shows as an empty box instead of fetching a font from Google Fonts.
 //   After a few failed same-site lookups the engine stops trying.
+//
+// Cache safety: the engine files are not renamed per release, and the host
+// lets a browser keep them for ten minutes, so a visitor could combine the
+// old and the new. The deploy script replaces the token below with the build
+// id (YYYYMMDD.<short-commit>), and every file this loader fetches then
+// carries it as a query (main.dart.js, main.dart.wasm and the support
+// runtime). Left as it is (a local build), nothing is added.
+(function () {
+  var buildId = "20261103.5bcf6d5";
+  if (buildId === "__BUILD_" + "ID__") return;
+  var query = "?v=" + encodeURIComponent(buildId);
+  var builds = (_flutter.buildConfig && _flutter.buildConfig.builds) || [];
+  builds.forEach(function (build) {
+    ["mainJsPath", "mainWasmPath", "jsSupportRuntimePath"].forEach(
+      function (key) {
+        if (build[key]) build[key] += query;
+      });
+  });
+})();
+
 _flutter.loader.load({
   config: {
     canvasKitBaseUrl: "canvaskit/",
