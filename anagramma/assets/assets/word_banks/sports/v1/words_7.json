@@ -5,7 +5,6 @@
   "BOBSLED",
   "BOWLING",
   "BULLPEN",
-  "CAMOGIE",
   "CAPTAIN",
   "CATCHER",
   "CRICKET",
@@ -16,7 +15,6 @@
   "DEFENSE",
   "DIAMOND",
   "DRIBBLE",
-  "ENDZONE",
   "FAIRWAY",
   "FENCING",
   "FIELDER",
@@ -26,8 +24,6 @@
   "HURLING",
   "INFIELD",
   "JAVELIN",
-  "KABADDI",
-  "KARTING",
   "KICKOFF",
   "MANAGER",
   "MATCHUP",
@@ -66,6 +62,5 @@
   "VARSITY",
   "VICTORY",
   "WHISTLE",
-  "WORKOUT",
-  "ZORBING"
+  "WORKOUT"
 ]
