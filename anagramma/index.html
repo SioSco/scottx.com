@@ -76,5 +76,8 @@
   </div>
   <script src="loading_dots.js"></script>
   <script src="flutter_bootstrap.js" async></script>
+  <!-- Offline play: registers the service worker after the page has loaded,
+       so nothing waits on it (web/anagramma_sw.js). -->
+  <script src="sw_register.js" defer></script>
 </body>
 </html>

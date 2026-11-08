@@ -1,0 +1,1150 @@
+{
+ "buildId": "20261108.e514b41",
+ "files": [
+  {
+   "path": ".last_build_id",
+   "size": 32,
+   "sha256": "caa19ec4b957c864eed808d2f54a3b0868805fde2fee8aa83243a821608f41b8"
+  },
+  {
+   "path": "assets/AssetManifest.bin",
+   "size": 18226,
+   "sha256": "3d82f8ebc876b5c88a2f1a2162c567ca38e47ddbdafaa15bba7e50f5b276661a"
+  },
+  {
+   "path": "assets/AssetManifest.bin.json",
+   "size": 24306,
+   "sha256": "1ccfaad43b1f0b6273ce641a42986ec9fb58a3f2509409fd46581fc8912d04d3"
+  },
+  {
+   "path": "assets/FontManifest.json",
+   "size": 634,
+   "sha256": "a9337b9ff00b57940f50f1f173289f94494917105dce3b73e814d57f8d51a275"
+  },
+  {
+   "path": "assets/NOTICES",
+   "size": 1324108,
+   "sha256": "8ac3a21c76207d2eb16b967d2967017127b942ad10ca90cbb8ee48b8d1880e56"
+  },
+  {
+   "path": "assets/assets/fonts/EBGaramond-600.ttf",
+   "size": 153904,
+   "sha256": "fbb52b7bc5b89abda600bfc0b85fb8bf2ae60d0567683ed22e585e39a9705ede"
+  },
+  {
+   "path": "assets/assets/fonts/EBGaramond-700.ttf",
+   "size": 153656,
+   "sha256": "a1b75ba1651562bd30d9208d2a872e34e2f13861563127e7dd11c269bd81f4d2"
+  },
+  {
+   "path": "assets/assets/fonts/Inter-400.ttf",
+   "size": 91856,
+   "sha256": "f1e7ba5ff97fabea52ceddc006dd6a37ba731142cdcbc56de7449b95b6adae53"
+  },
+  {
+   "path": "assets/assets/fonts/Inter-500.ttf",
+   "size": 91908,
+   "sha256": "6dcb0b0a2bd3b63810a12cb9949dc8ab3d18c4364a1c5df677efc02891b32493"
+  },
+  {
+   "path": "assets/assets/fonts/Inter-600.ttf",
+   "size": 92036,
+   "sha256": "11ccda3618ea7f908c52cfa72e698838738e3aa54e04eead234c7ae6b41b1ec8"
+  },
+  {
+   "path": "assets/assets/fonts/Inter-700.ttf",
+   "size": 92064,
+   "sha256": "a6cdbdd90e3dc64e59b2c2cbd5edd7a65d709e3901bc73181d63a4a415580fae"
+  },
+  {
+   "path": "assets/assets/fonts/WindSong-Medium.ttf",
+   "size": 43948,
+   "sha256": "40f11cffda907dac7602e47d090ce920107cb855bb5bbec697219c90978579d9"
+  },
+  {
+   "path": "assets/assets/fonts/licenses/EBGaramond-OFL.txt",
+   "size": 4489,
+   "sha256": "ae218c56fce9e756d1f1909629457b22fa9328207ef3400840941b375c618139"
+  },
+  {
+   "path": "assets/assets/fonts/licenses/Inter-OFL.txt",
+   "size": 4468,
+   "sha256": "d1e9e298ab4af681c2191fec05696d6f198fd26c45dfb6efffdf45a77dc05e16"
+  },
+  {
+   "path": "assets/assets/fonts/licenses/WindSong-OFL.txt",
+   "size": 4481,
+   "sha256": "e69288867bc65c0e087bc41da93091f7a19b2efe9f40028554603bbd9d60e97c"
+  },
+  {
+   "path": "assets/assets/sounds/anagram_discovered.wav",
+   "size": 5304,
+   "sha256": "f340c302b080edc4d8c727705656d4461e514c89dabad70b45be618e606339b4"
+  },
+  {
+   "path": "assets/assets/sounds/award_earned.wav",
+   "size": 9742,
+   "sha256": "d69a089066fbba9c7c4b406d4d80cc2e7e65efd6bf8699a418320b630969393c"
+  },
+  {
+   "path": "assets/assets/sounds/clear.wav",
+   "size": 6216,
+   "sha256": "f781aa0b17b31c0aeb2a43bfb0fe0692d4b45ab59c646053a09f5d9e692564ff"
+  },
+  {
+   "path": "assets/assets/sounds/countdown.wav",
+   "size": 2246,
+   "sha256": "8ca99c305360caa2c57140acbf73b305a562f94cd76e8fd2cb325f552b977572"
+  },
+  {
+   "path": "assets/assets/sounds/final_warning.wav",
+   "size": 17366,
+   "sha256": "b413de7ced23bcbe8e7f8109c90859a6bb6c119b2796ba8c9998403b8aa49400"
+  },
+  {
+   "path": "assets/assets/sounds/hint_revealed.wav",
+   "size": 5332,
+   "sha256": "4884360de1fe674cd3b4d07fb3f63817a7f11d04c9889beb9c42fb1b7844dfc4"
+  },
+  {
+   "path": "assets/assets/sounds/misprint.wav",
+   "size": 5330,
+   "sha256": "0c7ee6c2d045267ae98b737f30fb20d44e262d2dd428334baa71a6aa0fbe2a66"
+  },
+  {
+   "path": "assets/assets/sounds/promotion.wav",
+   "size": 10184,
+   "sha256": "61d8ed984e2a6b7e7e9227d20d56bdf3f413caac37a3eea58b1eb8174a48ba4e"
+  },
+  {
+   "path": "assets/assets/sounds/relegation.wav",
+   "size": 10626,
+   "sha256": "30329e4751fc769c8916ce137167bd85b7040e52c18713d39fd0c4cd2b5985e8"
+  },
+  {
+   "path": "assets/assets/sounds/run_complete.wav",
+   "size": 15476,
+   "sha256": "7c846371bb7e98a696ec55c5661d4068c4d04e6fed605f7b435202e9fbb49b22"
+  },
+  {
+   "path": "assets/assets/sounds/tile_tap_1.wav",
+   "size": 3124,
+   "sha256": "50a2763e72fa56ac195d2059dfb8668813473cd67e33cd2305dd7c564f5ce384"
+  },
+  {
+   "path": "assets/assets/sounds/tile_tap_2.wav",
+   "size": 2938,
+   "sha256": "454aa333901cc1aa4ddee8fc088f387ce54c5d4205f464cf48984b8a0f4c8dbd"
+  },
+  {
+   "path": "assets/assets/sounds/tile_tap_3.wav",
+   "size": 3126,
+   "sha256": "d58477a863feb0bded5da7e82bbf66f102673c784435a606327a8002622a0f73"
+  },
+  {
+   "path": "assets/assets/sounds/tile_tap_4.wav",
+   "size": 3066,
+   "sha256": "cc0d924d4a427d5378734e2f9a58c19b2859a93f4737ba5ca45d42abfb33c8ea"
+  },
+  {
+   "path": "assets/assets/sounds/tile_tap_5.wav",
+   "size": 2962,
+   "sha256": "99352544438dda3c4ee79b15fdad4edfc2157292d75ce5566f2c380fb14ebe60"
+  },
+  {
+   "path": "assets/assets/sounds/undo.wav",
+   "size": 2688,
+   "sha256": "8ccdad66e6b0e3219ded445eecb9b75f73b4e8cf51ce23969388c40620ba0bd9"
+  },
+  {
+   "path": "assets/assets/sounds/word_solved.wav",
+   "size": 7096,
+   "sha256": "0256e9d35251e2d276c0177c0f365237afa112a889fac3dcc05d040dcc72dd4a"
+  },
+  {
+   "path": "assets/assets/word_banks/NOTICE.txt",
+   "size": 3148,
+   "sha256": "a9c3325615485092b2b26aeef2a98a2814b2157ec74734e2abf601230d0f41a0"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/info.json",
+   "size": 23408,
+   "sha256": "e74afb1828f27828c380de7513d0933992da512c8d56b2ad70bd2ae34900e03e"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_10.json",
+   "size": 194,
+   "sha256": "b4da75955c566ef78ce75fd5e9009877a765671de9ff61f3a440922776a393ed"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_11.json",
+   "size": 121,
+   "sha256": "df9a872ca0a4b2b8d7e7cb30f500916819b4af6caf4360d7874ab147719dafc0"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_12.json",
+   "size": 20,
+   "sha256": "db3d085f15eb1aa622a4827d61e4606b01c32e8c961405b0c43fdd186b033161"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_4.json",
+   "size": 482,
+   "sha256": "e5a58ddb6ea9d292b866eb1484e14d8f9d2dd1912b5d5709888af3a9e7fcd6d9"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_5.json",
+   "size": 651,
+   "sha256": "a556a27cade4c68aaf5a9ad901943247fbaeb6f05f3ef9f2c969c134a51e80dd"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_6.json",
+   "size": 734,
+   "sha256": "cc479c6790c75e3f82680ba32b3e80cd1bc7e3a1b1bb1740e03c12e966aa0ee1"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_7.json",
+   "size": 756,
+   "sha256": "b93d9a77621c409b39d0a2e12261abd645f32bd251a34af38ff628b7301b5de1"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_8.json",
+   "size": 604,
+   "sha256": "2acc733942c2ceb4fd550d5379ff2cdc97789f60ee1fb5700a33bfd6d8a46a0c"
+  },
+  {
+   "path": "assets/assets/word_banks/animals/v1/words_9.json",
+   "size": 497,
+   "sha256": "e95d617118bcfb89107ae7d47a9d996fb7c7ab29b05be005460100fefc753e9c"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/info.json",
+   "size": 3865,
+   "sha256": "3af5405c6389a54500d0f0bd38e51b7fb3afca6dd2a1774d84b894ad3bedd49a"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_10.json",
+   "size": 322,
+   "sha256": "631f4f79befc1e542e65b2fc757acf9caf4ec6ee57f26868efe60c8ae3b661b1"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_11.json",
+   "size": 121,
+   "sha256": "4e07a58602f3e160d36d3b5aa66537b3de31b27ec8d2918d075f2d872de8c0f8"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_12.json",
+   "size": 20,
+   "sha256": "ffe4ff02041949bc9c3ea6fc3ee59f699164bd15db240062f399573ae0cd1d9f"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_4.json",
+   "size": 332,
+   "sha256": "52145c2f7eb706af7869a032be554414cbdfa93eea39c5d7f05f4405ab40b87f"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_5.json",
+   "size": 585,
+   "sha256": "c29355c5a0ab368f89b1f0b885a668c838e4f3846c399e9139575b29e5767a8a"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_6.json",
+   "size": 782,
+   "sha256": "d88141b2dd4ac9da5bc8826ae207406df112b146e40e529b9596cf0a9e765269"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_7.json",
+   "size": 951,
+   "sha256": "67927b75303998e688fc55457e58d85b514441a32eadd28e1c5710c6aaf9b361"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_8.json",
+   "size": 772,
+   "sha256": "256e4e33481cf10c0ce44e69209a028839324debcabf3d02689341877bb2db84"
+  },
+  {
+   "path": "assets/assets/word_banks/body/v1/words_9.json",
+   "size": 587,
+   "sha256": "55292dfa1bfcd243c7cfc40c6a91273f560d220f371ad00b4ba2d75f15c1f5c6"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/info.json",
+   "size": 11377,
+   "sha256": "3de8011ac41724cd04809723a11084fbb6194052f9c492a2a869a3f658320470"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_10.json",
+   "size": 242,
+   "sha256": "5e1d47333dd7a4ea084d9cf47e385dd1bdf074fdaffa5d2cab64081d99f88192"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_11.json",
+   "size": 104,
+   "sha256": "24533ac79c2f7aa6e7a46c6c71263c5889043baa4627700fec2208802b042b0a"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_12.json",
+   "size": 56,
+   "sha256": "01186ad627defd4d005d625b3a7a8a6b2ca09a8ee6637b896d5921fd6df6e7f8"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_4.json",
+   "size": 132,
+   "sha256": "81d9b03d47e9431206612bfbca806a9bd9ca8bf9f4cc9b9455be1c66246ad4a1"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_5.json",
+   "size": 244,
+   "sha256": "788682b5c5e5b4b864b692fb365f17a9a678db25dd4e49f81798efc80cad4e0f"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_6.json",
+   "size": 566,
+   "sha256": "d6feecaa7bf2c87ab3d960ed2dbbc385f34658434017f8479f6ceca3801a51fb"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_7.json",
+   "size": 418,
+   "sha256": "e53314e269d04437184bca49398bbaefef5f12dc08c5d53ded5d305c93923653"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_8.json",
+   "size": 478,
+   "sha256": "e610bc1204c4ab36a156be478929a94e890fc8a7a36f7f3a10fd96b127d5972b"
+  },
+  {
+   "path": "assets/assets/word_banks/capitals/v1/words_9.json",
+   "size": 347,
+   "sha256": "67f2e57940d7f429ed1abce2e3e83ea0b01fde2814b9495f8b6d20a801e5e89f"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/info.json",
+   "size": 7169,
+   "sha256": "8121f7888988a3e61af0d293dbbe88f9055b9b165621c4046c6f69518fb6040a"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_10.json",
+   "size": 98,
+   "sha256": "7d82c1f6199c457d763d8821e1d8c79de3c4b4320591a4bc18be8960772bbb88"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_11.json",
+   "size": 36,
+   "sha256": "0cfa6048abd39eb74a961f6c3e4a4c758ff51f6a381eaab9bb9d839f919b1431"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_12.json",
+   "size": 38,
+   "sha256": "56e19df8ec0fb1b5bfb15b6e22fe83ed0098996eca6986a0582a87b3428e167b"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_4.json",
+   "size": 62,
+   "sha256": "eb5df771fb168e455a67272c3c03031f7dfdc12795d155bfd84c1e0acdd4df6b"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_5.json",
+   "size": 167,
+   "sha256": "7938a9a1ac267483f14fc4c96a11a9bd32da22efa7a503a266e82b5b2b40e8b3"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_6.json",
+   "size": 398,
+   "sha256": "2846b6bf08bf2228c669fc45f69eb99786ee5ef7c67fd29f3d170260ee691c1e"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_7.json",
+   "size": 392,
+   "sha256": "f9defc164482d43932bd1c52c531a39d46bd0df0525dee311e6bab1cb028198e"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_8.json",
+   "size": 268,
+   "sha256": "3a7fec36da9a101c522a1ea0f6da623bb4207fca812175d7fcc1360cf8f7d0da"
+  },
+  {
+   "path": "assets/assets/word_banks/cities/v1/words_9.json",
+   "size": 272,
+   "sha256": "cb777d61c9cb5ff8e5da228edfda396ccedbe67d8b3f27ea4f529571d3bec724"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/info.json",
+   "size": 12714,
+   "sha256": "d3e1676b9883f389fb7273fcb927f0bfeb12e90da3401fc7909528133d164dd4"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_10.json",
+   "size": 290,
+   "sha256": "5b3c7550565d8473888c8a3cc7c6249a728ba8ce735e985a81e2dc0e7cabadf0"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_11.json",
+   "size": 172,
+   "sha256": "d7d3697103a64f213e62ca9abbe98c2096cf1e278a37ff2cb257737d4892f22e"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_12.json",
+   "size": 38,
+   "sha256": "025814a0643733125c600f91542444ba0be5bf22516e83901de66c2e7a7d3970"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_4.json",
+   "size": 492,
+   "sha256": "2567dd0c3e2c09e293921067a0dbbac7df927eb53ca1a49168a0a68ef683b84e"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_5.json",
+   "size": 860,
+   "sha256": "69cd08004a4637d41dd465169fd58ba87fa1635d793af0648654cceb740d8a4b"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_6.json",
+   "size": 650,
+   "sha256": "62baa2c10447657300b14d027dea135c4f7cbddc3a26cc0b1ba4954664e73e45"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_7.json",
+   "size": 496,
+   "sha256": "91913f157f6e1e92c7e5fa1f26e196460055a0ec7affad6300ea3931561094f8"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_8.json",
+   "size": 296,
+   "sha256": "30f6c4027a47f2a12fc300e5aa5df97c629c8ae2336f35540f839a019d789073"
+  },
+  {
+   "path": "assets/assets/word_banks/collective/v1/words_9.json",
+   "size": 332,
+   "sha256": "dd03fdb3a1c06fa052d9c40579135496a14ba637d964fd8e5953cc973376cf9e"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/info.json",
+   "size": 18627,
+   "sha256": "ca93a2bfd241a31c5d19a3c0a555b80f3658cc5048738a44a4f88c46c81a8fa4"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_10.json",
+   "size": 178,
+   "sha256": "df6fd94a732b1754f364ee964b3bc772e2cc15201f9f2cc37e3ecb58bc203fbe"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_11.json",
+   "size": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_12.json",
+   "size": 20,
+   "sha256": "710c4f69209a0e92d6411dc2850d7867f32b8e8c95282b5b39c69e692bf00ed7"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_4.json",
+   "size": 432,
+   "sha256": "202d372791746c3bb5cdc91ea63169f94e7878c53cc9dcabd462b4cf17fb2e4b"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_5.json",
+   "size": 904,
+   "sha256": "461c125990d5622acb147f0244da45843df1c2106394b922753c2acd165d4f0d"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_6.json",
+   "size": 830,
+   "sha256": "3b0637ce9179fc07b10c0176e80735cf6b3472795834b6146c858291699f38d6"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_7.json",
+   "size": 561,
+   "sha256": "8f0938c7fabca3d14651b03de70fa0622b9c6713d60bbf1bfd16c34012bc477a"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_8.json",
+   "size": 408,
+   "sha256": "d96658217ca734742fb33fd7de140fd4f1aa103d33d7779649fc5659c452caee"
+  },
+  {
+   "path": "assets/assets/word_banks/colours/v1/words_9.json",
+   "size": 347,
+   "sha256": "4c671622a05c05c485717b4bb5dcabacee1e6a387cb459b0ad6e6163e94e23cd"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/info.json",
+   "size": 9968,
+   "sha256": "87d8c73525b5c6af71e19910312acef574aa4ff59edda426c6eb8c1dd114d381"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_10.json",
+   "size": 226,
+   "sha256": "62c981d9abc3ab0cb89c88b3910edf9f57c01139e78db6fd1782700a86b74658"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_11.json",
+   "size": 70,
+   "sha256": "c69a1a9eb579c5d179d9b19691a30da0850dcfe4dc38003d4fd0e97cccced200"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_12.json",
+   "size": 38,
+   "sha256": "25dbfa324a72fd1ba071a6457261a7582cb9df4c9380764875cb8f8045bfcf61"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_4.json",
+   "size": 122,
+   "sha256": "968eba74ea5bf04e40000e4260ef37872043933323c31f4514c42db87c8bea39"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_5.json",
+   "size": 310,
+   "sha256": "3f5b500bd1ff9374109a57b104f3479f7e4594e4339cf849947f4282c6d74e28"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_6.json",
+   "size": 398,
+   "sha256": "ffa88de921864c6b3884811fba70ed224a09b315fd504e9e795e791312c3f301"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_7.json",
+   "size": 626,
+   "sha256": "b5d41db020300514afcb5c853ec6fb9e711a45964429fdcddc84fb4c0ca3109a"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_8.json",
+   "size": 408,
+   "sha256": "c62e2aaa1a33c734562595b7867385a439985730e06c94371a7e6dcfee9e8cb9"
+  },
+  {
+   "path": "assets/assets/word_banks/countries/v1/words_9.json",
+   "size": 197,
+   "sha256": "dadbe32c202fba7647fa15f27b8bec1299c0790bc3dd80b03dbd368cfa5e395e"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/info.json",
+   "size": 4127,
+   "sha256": "7a35f85d4916c8231ea5f2576c2903e5ea16fc45c1fec170844f15732787dfe7"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_10.json",
+   "size": 226,
+   "sha256": "fcf9c1a5668ce54ebe07995e43a7f74b9d05277770c598231b1d959eff6f5b6d"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_11.json",
+   "size": 87,
+   "sha256": "edd74a3566a9de1e72fe4b88233a11caf512ae81c518645930db3d9a231da92d"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_12.json",
+   "size": 2,
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_4.json",
+   "size": 252,
+   "sha256": "8a5fc417358cce5092a39216cf3817c8de9bbc0bddce2913d4b10c0752a7ad0c"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_5.json",
+   "size": 596,
+   "sha256": "c3b976cbf9fec384b6b4aa1cbf925391c7818a18f622bbaff31799774c3cce3e"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_6.json",
+   "size": 770,
+   "sha256": "ee80368ff9a8b3007ecd2838d6b4088b70c263a6b8a18326c0601ca82bec1bdf"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_7.json",
+   "size": 821,
+   "sha256": "602b2ca64e9e04724e4ad00ba71257818e4f93d45dd3cbb8c1dd369f509c5aa8"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_8.json",
+   "size": 618,
+   "sha256": "cc02845f788b1285a56301f1e4544ca50b9626b2c85a0ec727b1523af0cf5f91"
+  },
+  {
+   "path": "assets/assets/word_banks/foods/v1/words_9.json",
+   "size": 452,
+   "sha256": "8e334fd04d9d443a46aff679ef99def73bbd122f9209c5f17cd67da71fd17e69"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_10.json",
+   "size": 9166,
+   "sha256": "edf7f99deb3462c53bf26759b5b6b27d9582adb28f382d5a94699c728d941252"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_11.json",
+   "size": 8471,
+   "sha256": "e2d91614ad43500a02729e748f697ec7f365d7fc38149746f7599b1f3af386f6"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_12.json",
+   "size": 6856,
+   "sha256": "011205c73fa24c4195c77747d521f6a49e1784b1ebe04414ddca6693d3f98aff"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_4.json",
+   "size": 456,
+   "sha256": "dddb1231eddbc0606dff83680b5934b56a98cc7391977ba013ab1fd6557e448d"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_5.json",
+   "size": 1289,
+   "sha256": "def25c30ae9d56cfa774df7b476fe6d32c1fcd159804fe284bd1da8c7a3e252f"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_6.json",
+   "size": 2323,
+   "sha256": "fc92adf431446770caeaa8f9fd84cba2eb820ee6cc19b756319a71664af6280b"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_7.json",
+   "size": 3531,
+   "sha256": "4d7bf1a7d114f0ea8ee9b50107e4121f82f8f06542b78396af1ac96e7d29336d"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_8.json",
+   "size": 5611,
+   "sha256": "381500d4b1ca365950127aa411902dffe645df706d8288fa0d6a4e91f7017a49"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/accept_9.json",
+   "size": 8017,
+   "sha256": "4ed9ff7816e7bc3824afdefbb10bdd8092c3030d3ec2decf0e96a31067d74556"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups.json",
+   "size": 292,
+   "sha256": "8ae2f06c3150abed1715bf01e2b191cf6673b85d4c6d2c77a2babe1eca226f12"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_10.json",
+   "size": 31356,
+   "sha256": "c178361492d2f136935e46d0e724ee7f19f2eafb196b4b1536ba3ad1fd68ae28"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_11.json",
+   "size": 14943,
+   "sha256": "5c1d5f2d2fd2cf31df18142c27bfd0b01903e49f8127c72262d1d56cd8b870bd"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_12.json",
+   "size": 6613,
+   "sha256": "1d601acc2c1e0a0231da93b567423a9550afa7bf7b049bf7f0a0e9fe9e16214d"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_4.json",
+   "size": 83933,
+   "sha256": "845ae6b1e1179770c13741798a5ee679886fc3725132303a189064cff82ed62b"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_5.json",
+   "size": 140016,
+   "sha256": "047af79546d92ae1d65ed7c9ae2bca63edfc63cf1b15703bd781f8dfdbe68380"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_6.json",
+   "size": 173846,
+   "sha256": "5b86e478317ccb883cc4b9efd2aae9c00d7b36a29fbe00d6f85f29b2df43352e"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_7.json",
+   "size": 186515,
+   "sha256": "3d8771862ee7f7cae35e76d6431c20c1b1a077db78cc34151a4a65dbcdf7db67"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_8.json",
+   "size": 125822,
+   "sha256": "26610e68a6f30ab94113eeeb6f8938c3f4f76f48251f3d1190b90628b404e250"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/anagram_groups_9.json",
+   "size": 71324,
+   "sha256": "0fe466d98a5ac2c63ab68b6fb540bce09b5914b370ea1119abd07308018eb73f"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_10.json",
+   "size": 92293,
+   "sha256": "c245d4431bfd1914239b1effc95546faf9f7a80501f3a2f348a17630a36e9b01"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_11.json",
+   "size": 59466,
+   "sha256": "86c782a8328b27fe05d0a5693fd3109e84c83770232f419b173f9a24eade474a"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_12.json",
+   "size": 33985,
+   "sha256": "e1b3baa77fc14fa476aac015f3ffd2e34b29fd505baf98915639dd3eb368dee0"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_4.json",
+   "size": 56018,
+   "sha256": "fedac7b2a970291b227d25e026f16c891d085711ec63fa3390fa7cc84f231ffb"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_5.json",
+   "size": 93046,
+   "sha256": "2572119cc8b6e909efbefc42f51e08033206ffbb2d7e256a8906b6f091b1e9ae"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_6.json",
+   "size": 127506,
+   "sha256": "eed3e5f361cdbeb337915d26688794cdcfbe9fd2d24c57e1e49924be74322ae4"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_7.json",
+   "size": 156304,
+   "sha256": "6a0b5206ac83a187d9d11a3801905db9331a920a0d036fd0fd467d5038050edb"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_8.json",
+   "size": 150838,
+   "sha256": "0b519c2331a7949b3bf658ff96de89e689e4d8051db756f1765cc69e2f581b87"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/clues_9.json",
+   "size": 122182,
+   "sha256": "3ba33857c30913602f57a5ca1613f8c4fcb0b503f62f8e9aaa768b7c14072717"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/expansion.json",
+   "size": 175587,
+   "sha256": "55201cc4f08da7de8d06841011106e89958b656fdc1a5c70d50e6a0da0069b51"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_10.json",
+   "size": 728769,
+   "sha256": "2fe67e53b00b7f9313cd6eef5d4c166bc32b3122100938bac1389dd376901553"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_11.json",
+   "size": 556050,
+   "sha256": "36b4d96b501d643216fecc5cd4ad64d15176a47211058fee7287a597677fcb47"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_12.json",
+   "size": 385013,
+   "sha256": "a49261edf8ff08b4f277024d82df8fe18cb4399342c0880f28c3fdc9f0a099be"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_4.json",
+   "size": 161397,
+   "sha256": "8f6e39d8c22d271399eeaefb736e1b58d22df28f4463293a53d05759f3011a00"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_5.json",
+   "size": 308071,
+   "sha256": "2002ba0fe817839ab71449dca947c2ae8b681cdeb8793e2ecf27745beeb22d55"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_6.json",
+   "size": 509294,
+   "sha256": "e42562362efd7d97504e2a0faaebeabbf2a40de432735d5b573f6e3dae26c471"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_7.json",
+   "size": 717942,
+   "sha256": "ee2e6c3f224c9d901affa942e2fe6de5eaf2929dc868bf4f990d4b49eaa7a30b"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_8.json",
+   "size": 830112,
+   "sha256": "829518ee1edc01c96032d566bba3b9e8d2c223c641b1ad01a338348cb0ca9af5"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/info_9.json",
+   "size": 840692,
+   "sha256": "a4e7690051fffd1df24ac96f3c58e6c44a625939f1cb879d3a25c6da326d2d80"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_10.json",
+   "size": 183704,
+   "sha256": "70b42431e0fcd89d9e361b200411bce7b83589e29a135182321340e5e35546fa"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_11.json",
+   "size": 147057,
+   "sha256": "91f11ae75b1c1e69dc97e01cf6f47385b233a62ba947276fca0467d1970c4492"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_12.json",
+   "size": 106456,
+   "sha256": "cd696bee4849c6e7d40a9595318cb4d3ab1718176e244150bba44abe2def5cbc"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_4.json",
+   "size": 21785,
+   "sha256": "bec123d18a7596955306dca37fc327fbb7874982ee5036637a29c5f0248a73bf"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_5.json",
+   "size": 50785,
+   "sha256": "04093ab50d67be2cfe07a86a3dc5ef8f44e804152cc057e3dc63219a37fcc399"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_6.json",
+   "size": 96121,
+   "sha256": "6af2ad21d349251e388fb581c06c1ebb673d07283356edd51fe0abb262626224"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_7.json",
+   "size": 153121,
+   "sha256": "c65329fa5c5832b8c3bf83457add81cdff1d0a8162dbc13046f9ba0f205770f1"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_8.json",
+   "size": 189883,
+   "sha256": "adbf6adeb9499679b66e935efd30c921fe471ccc4e26047204841c8ed9327da0"
+  },
+  {
+   "path": "assets/assets/word_banks/normal/v1/words_9.json",
+   "size": 200305,
+   "sha256": "c90e1f66ad2c3430a48921b3b9aedb0a1f74bfb52da082b37071e7950ff6a612"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/info.json",
+   "size": 27742,
+   "sha256": "31695961e3285cefe9a0c25fb5f7653071fe81f0e5ba92ccae9d5e3e3495ae01"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_10.json",
+   "size": 338,
+   "sha256": "c14cd3d034eb45fba37210269f0cfc8cc5be1ac1bc8cf3a3afa88e8d92685db7"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_11.json",
+   "size": 87,
+   "sha256": "20be1d1b141c6cd52d609e68e1575e5b30df6c08137f4e1a75f035144f4c64c0"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_12.json",
+   "size": 38,
+   "sha256": "0a60b4ae27e6a0e281489fd8177b5a92fd8f8ecf82a6f7d7a60d5d2301953160"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_4.json",
+   "size": 302,
+   "sha256": "ae37a48715fd2c26846734fc37605c567bdb359334fc28c2e2ae1314b3fee3e3"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_5.json",
+   "size": 552,
+   "sha256": "c64e2227fb595baf2a84a7c2157925248d7ba0b7975f72c7a34b36d159a77981"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_6.json",
+   "size": 722,
+   "sha256": "bcfb9dd71655dc78a2c3f3f87774f13164e6f1cc542a68469089cba88f85acd8"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_7.json",
+   "size": 717,
+   "sha256": "accf374559228d699b5a8fef0ec038435fffb4c9b75cda2e0bc5c5508f26d653"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_8.json",
+   "size": 828,
+   "sha256": "ac46ae2fde58b67c76eb4223de2e5a3ea9eb939bf9ea02b4fd0cc991dfe16619"
+  },
+  {
+   "path": "assets/assets/word_banks/plants/v1/words_9.json",
+   "size": 647,
+   "sha256": "f5584d354bf25bbc5d943c6ef00979a1790f78b1599c84c106697ff311c52878"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_10.json",
+   "size": 12442,
+   "sha256": "6ad97080d63f0cdcf922088af46160e8a34ebfb29a87acb2cb905b4888a3a7a5"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_11.json",
+   "size": 7785,
+   "sha256": "a1ae4ea64910d0b4fd5b6d044035ef0e431ac6634570947edf1306044aa331a6"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_12.json",
+   "size": 4486,
+   "sha256": "30a4c2cbb1c4c5c859b900f08fa54bcd3667cb9b197ad08c88d14cf64b82a6bf"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_4.json",
+   "size": 6441,
+   "sha256": "6abb657ef6842845d29f4774538bc525b1ddaaaf1d395db6a470eb73915526ce"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_5.json",
+   "size": 10873,
+   "sha256": "bd46cac4ba5b17c8fbccfffa45cc7143a8886af318a57dc3226833b8bf5fd93b"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_6.json",
+   "size": 14905,
+   "sha256": "7b7fb4d38860e5617bc8b874e04713d1eb1700ebc9c7ec2195ee3638bb38c95f"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_7.json",
+   "size": 17661,
+   "sha256": "e1c75e0939701e05da6ad0dc56e9af5efbfff90ecd74e361bb21f937bdf114db"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_8.json",
+   "size": 17249,
+   "sha256": "979c5cc10146422f68992f636c3f772845346ca56115c7a4c4e53714e6e7ca80"
+  },
+  {
+   "path": "assets/assets/word_banks/spoken/v1/words_9.json",
+   "size": 15505,
+   "sha256": "efff89c3474087e3c882ec54f79853011514be9c824dfc9269606041a2b25ff0"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/info.json",
+   "size": 10242,
+   "sha256": "1cf3a5d035f7bd4806d98f6e328c37fd422c52bfc644a4aee31ea3415aa50e12"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_10.json",
+   "size": 418,
+   "sha256": "33292897773dca926cdbfbe7ad61641bdd72af9edbfa885db0af7aaec1b28c3e"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_11.json",
+   "size": 138,
+   "sha256": "bb07fb947994fc11427c04728a3c4e11ac86d901a5ce62a66e88a482474dcd89"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_12.json",
+   "size": 110,
+   "sha256": "4b800e339f6361f0a2824d4e953751a606374545571949879ce4efe6f6418d59"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_4.json",
+   "size": 112,
+   "sha256": "77a237009d66e4ee3b41b6cdcb10f07c108aecab4dafa110f7048f5347f56dcb"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_5.json",
+   "size": 310,
+   "sha256": "6c151ea67937c004ac3585e2120a1c91d95afafb692d4c2538bb4bac0de04f3d"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_6.json",
+   "size": 674,
+   "sha256": "09e2d127421aef5e400740e4c48ff05e7605883e65892f9a1b83649fbdca4b34"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_7.json",
+   "size": 834,
+   "sha256": "8f4b42ce8eafc52da132091abb5a1631bd14796af4d0c973c5d0de4125fea1e0"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_8.json",
+   "size": 954,
+   "sha256": "9b0a2d8a1f132b73067ff7ca51a1869b5077f50f1791ab2c20fbbd4512f27212"
+  },
+  {
+   "path": "assets/assets/word_banks/sports/v1/words_9.json",
+   "size": 497,
+   "sha256": "75c547d73a61038f68fd459809d554b400ffcdbd940b7fe08eba381dcd45b86c"
+  },
+  {
+   "path": "assets/assets/word_banks/target_blocklist.txt",
+   "size": 5499,
+   "sha256": "76d25665d62e445b1ad47da7e3fc514055c50e74012a9d5c56987e5cdad56a32"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_10.json",
+   "size": 32865,
+   "sha256": "9bd2261cf61e94f489f7d831095ad819ac7c595e32e4260bccb42db212d789e8"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_11.json",
+   "size": 22121,
+   "sha256": "bbe8c03e971d82f96d5a2fcd08096744a5c9f065aa3048f5e25d3af84a7bdb07"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_12.json",
+   "size": 13066,
+   "sha256": "cef88d0ee5d347e0b626c1112d60d5868300ddb20c18f1a50f36b3a638673b6c"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_4.json",
+   "size": 10466,
+   "sha256": "95d5a250bd67fa3676fede4a7056c49f5a690bd17229ff87b841b98bc108e9f2"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_5.json",
+   "size": 21033,
+   "sha256": "e3cfb11dc782163fb789f5bb703cfd0c730c1c555694a93b6de5507923d9bd58"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_6.json",
+   "size": 34498,
+   "sha256": "107969c7de7b0218d0a729adeae12baafb85b3530ec7eae8049eaf14397f4aec"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_7.json",
+   "size": 46761,
+   "sha256": "28a5998a02a025e2ab04c75152717b6c1a499e08917b67b2391c7ea695429012"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_8.json",
+   "size": 48401,
+   "sha256": "3bf479154492e4d8151e3ade0a7fb9558a912280f12c9b9feb64b1eb811555c3"
+  },
+  {
+   "path": "assets/assets/word_banks/written/v1/words_9.json",
+   "size": 41845,
+   "sha256": "a4b26dfca8a9f7707b4fcc6040168bdc8ccad53cacb295cd89a60c7f30415b1c"
+  },
+  {
+   "path": "assets/fonts/MaterialIcons-Regular.otf",
+   "size": 24008,
+   "sha256": "310bec930500946fba2331d48c0b8f9b4aa240809235b638ee8ead318de907f3"
+  },
+  {
+   "path": "assets/fonts/fallback/Roboto-Regular.ttf",
+   "size": 171676,
+   "sha256": "79e851404657dac2106b3d22ad256d47824a9a5765458edb72c9102a45816d95"
+  },
+  {
+   "path": "assets/shaders/ink_sparkle.frag",
+   "size": 8890,
+   "sha256": "2dca5ab93d4ec29e963f996f3916320ba60825e9537dfb149a68008c7a16b026"
+  },
+  {
+   "path": "assets/shaders/stretch_effect.frag",
+   "size": 6737,
+   "sha256": "ab412f07a5b9b50b67a885b24dbe16929738ae28630407d6490c924caf0a3220"
+  },
+  {
+   "path": "canvaskit/canvaskit.js",
+   "size": 86987,
+   "sha256": "bb559f6080c7d312ac2a912b4abec9f68ff3d3022d4a603c7796b9b31460642b"
+  },
+  {
+   "path": "canvaskit/canvaskit.wasm",
+   "size": 7284602,
+   "sha256": "fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3"
+  },
+  {
+   "path": "canvaskit/chromium/canvaskit.js",
+   "size": 86226,
+   "sha256": "6018b12bd8ed37e6952eee72d59c1cf7ad707ccdb74a0a45190010f77edd9068"
+  },
+  {
+   "path": "canvaskit/chromium/canvaskit.wasm",
+   "size": 5428806,
+   "sha256": "ae8ff1d858140f7b1300ced3fa89fb8c9dce0a400a0f4f1e11f6dcfb3315fdcf"
+  },
+  {
+   "path": "canvaskit/skwasm.js",
+   "size": 63537,
+   "sha256": "71d7d3e34bf71b52bdba3b588b103bba8148ba28de5754083e01b3398e7a6e1c"
+  },
+  {
+   "path": "canvaskit/skwasm.wasm",
+   "size": 3593715,
+   "sha256": "e540fd5e8303b7b68ec2718cb49e9c421f8ade3075b15e02a7059a62654df9a1"
+  },
+  {
+   "path": "canvaskit/skwasm_heavy.js",
+   "size": 63650,
+   "sha256": "cec554b46ddcf4c0e63d799e0556d546f42d2c3f69316fb4f67ed776f6104558"
+  },
+  {
+   "path": "canvaskit/skwasm_heavy.wasm",
+   "size": 5216217,
+   "sha256": "565f5cc1cca6ab120f11934b105f01fec4b58b480c82e0889dca93af8e6f8635"
+  },
+  {
+   "path": "canvaskit/webparagraph/canvaskit.js",
+   "size": 76114,
+   "sha256": "3110e3e4d9b7b5657d336f253aaca8acca5777cde9319fb69ac302d6ff5a8b23"
+  },
+  {
+   "path": "canvaskit/webparagraph/canvaskit.wasm",
+   "size": 3729129,
+   "sha256": "0ce1b05082efdc8529550e8a01f6ff0593972d55525035010e26f5600aa9f254"
+  },
+  {
+   "path": "canvaskit/wimp.js",
+   "size": 59127,
+   "sha256": "8fd8a47480c6eb0a374d159912d0b3fb15661b41f5c113ecdd39c2f01f2bee46"
+  },
+  {
+   "path": "canvaskit/wimp.wasm",
+   "size": 3581677,
+   "sha256": "e924eaafd801d41e017d178f3fd5cf8a417f641fe35c9ed34a4e1d7582283e0c"
+  },
+  {
+   "path": "favicon.png",
+   "size": 1219,
+   "sha256": "0e476ee379ed81a3002da51d1247d12848ed537eed1641167e73f1e38a8f80ef"
+  },
+  {
+   "path": "flutter.js",
+   "size": 12136,
+   "sha256": "2beb1ce6b159c71540aa66030af1d7964b6a92377cc78473745e02f97b74effe"
+  },
+  {
+   "path": "flutter_bootstrap.js",
+   "size": 14551,
+   "sha256": "a748c665547a7ed11876eb07b34135e8f74d3a0c5e8a3e74483b7c40f2d8a4c3"
+  },
+  {
+   "path": "icons/Icon-192.png",
+   "size": 10327,
+   "sha256": "62e7ff551ec3a388681fea235d9ed6536201a772de934acb3cd233415322e2b3"
+  },
+  {
+   "path": "icons/Icon-512.png",
+   "size": 31362,
+   "sha256": "f8c04e22c19dcac475515d87f99d3d67a54fe655ad830162e5713e06d39a36ca"
+  },
+  {
+   "path": "icons/Icon-maskable-192.png",
+   "size": 6532,
+   "sha256": "a6f63afb0e067e404835e4465400e569e44233e4efed580331d553b7a3f8b545"
+  },
+  {
+   "path": "icons/Icon-maskable-512.png",
+   "size": 21431,
+   "sha256": "761e3c6870132bb1b82a16fd2f33da92627155b38cf5c56008028122e12b92fb"
+  },
+  {
+   "path": "index.html",
+   "size": 4557,
+   "sha256": "07c13681c4e50e6196a59c66f26066a85e573944e23785e76d64cbcdb799be4c"
+  },
+  {
+   "path": "loading_dots.js",
+   "size": 1588,
+   "sha256": "8cc72ef43cf77404db0ba444a00eac57876d9c87cad54804b9fef2e2750cb783"
+  },
+  {
+   "path": "main.dart.js",
+   "size": 3070829,
+   "sha256": "7d9184c024e260216eee25a03e0d933acf5688e097c69aa04d0c8382587bbdd6"
+  },
+  {
+   "path": "main.dart.mjs",
+   "size": 33901,
+   "sha256": "281fa47823ce8d26f3334b94002302487f352eb5a226b711d790824cf363fcb6"
+  },
+  {
+   "path": "main.dart.wasm",
+   "size": 2675157,
+   "sha256": "455a4d75fdead4b2a31ba02fa88cec8f345c08a8a96abfcfb387acd805d37b8c"
+  },
+  {
+   "path": "manifest.json",
+   "size": 953,
+   "sha256": "186f76da221f83bdfa7bca17a46a7a66e1a57d2e6d19857ca39161b07e534917"
+  },
+  {
+   "path": "sw_register.js",
+   "size": 2377,
+   "sha256": "bb917f1cf8694feff1ddb4638328667e3665822aa449448d077349e5a92cc661"
+  }
+ ]
+}
