@@ -1,10 +1,10 @@
 {
- "buildId": "20261108.e514b41",
+ "buildId": "20261108.f77c5c3",
  "files": [
   {
    "path": ".last_build_id",
    "size": 32,
-   "sha256": "caa19ec4b957c864eed808d2f54a3b0868805fde2fee8aa83243a821608f41b8"
+   "sha256": "7318e72e5622db1aad7ac52ea328d1de5be0aa19a32a5d34b34a263c505fab24"
   },
   {
    "path": "assets/AssetManifest.bin",
@@ -368,8 +368,8 @@
   },
   {
    "path": "assets/assets/word_banks/collective/v1/info.json",
-   "size": 12714,
-   "sha256": "d3e1676b9883f389fb7273fcb927f0bfeb12e90da3401fc7909528133d164dd4"
+   "size": 15384,
+   "sha256": "71f45c64fb76c0de72a628ca6feac0d32d0639534865df999624c8f52ca6ef19"
   },
   {
    "path": "assets/assets/word_banks/collective/v1/words_10.json",
@@ -663,48 +663,48 @@
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_10.json",
-   "size": 92293,
-   "sha256": "c245d4431bfd1914239b1effc95546faf9f7a80501f3a2f348a17630a36e9b01"
+   "size": 93931,
+   "sha256": "01087b7466635533452717b7ac50e8df83a31542495b39a777162fde9fd66549"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_11.json",
-   "size": 59466,
-   "sha256": "86c782a8328b27fe05d0a5693fd3109e84c83770232f419b173f9a24eade474a"
+   "size": 60874,
+   "sha256": "bb0f9c6ec5280f09c6c301a271ac32480758ad59fe6413deffd4468e166b9512"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_12.json",
-   "size": 33985,
-   "sha256": "e1b3baa77fc14fa476aac015f3ffd2e34b29fd505baf98915639dd3eb368dee0"
+   "size": 34416,
+   "sha256": "272b4141a88c9046924d8c673cf6a025e3036844478b913644d46e5fbeb76611"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_4.json",
-   "size": 56018,
-   "sha256": "fedac7b2a970291b227d25e026f16c891d085711ec63fa3390fa7cc84f231ffb"
+   "size": 57069,
+   "sha256": "6c40c66f4d1374464305db7a80cc2836a60ab263d9bec5b96beb12ae2a6891a7"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_5.json",
-   "size": 93046,
-   "sha256": "2572119cc8b6e909efbefc42f51e08033206ffbb2d7e256a8906b6f091b1e9ae"
+   "size": 94228,
+   "sha256": "49425ee4c0e8a94e01c434836616ca52a842b0e3c260a1279cbf26a1e75534b1"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_6.json",
-   "size": 127506,
-   "sha256": "eed3e5f361cdbeb337915d26688794cdcfbe9fd2d24c57e1e49924be74322ae4"
+   "size": 130095,
+   "sha256": "41c56b4ccbfe00b7c818dbba63c9d2094b6688b71de98ad0615c190cf73edec6"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_7.json",
-   "size": 156304,
-   "sha256": "6a0b5206ac83a187d9d11a3801905db9331a920a0d036fd0fd467d5038050edb"
+   "size": 158343,
+   "sha256": "1ac3679493e21976fe4fda2bcbefebc7bba623f9b76362b57d3c0ffefb81b42e"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_8.json",
-   "size": 150838,
-   "sha256": "0b519c2331a7949b3bf658ff96de89e689e4d8051db756f1765cc69e2f581b87"
+   "size": 152877,
+   "sha256": "edb069beaff72cfa8991aeabb21d8cd40ee2716dce9b33cfc69d0cd6835643ff"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/clues_9.json",
-   "size": 122182,
-   "sha256": "3ba33857c30913602f57a5ca1613f8c4fcb0b503f62f8e9aaa768b7c14072717"
+   "size": 124440,
+   "sha256": "6922d4ce7fa990603e15ed7bc9e733a60939fca0416425132f1e0ea3f4a1b1cc"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/expansion.json",
@@ -733,28 +733,28 @@
   },
   {
    "path": "assets/assets/word_banks/normal/v1/info_5.json",
-   "size": 308071,
-   "sha256": "2002ba0fe817839ab71449dca947c2ae8b681cdeb8793e2ecf27745beeb22d55"
+   "size": 308102,
+   "sha256": "dc5edf70a10bd1d06c5091a3b98f6531e0914ff4f6cdaa7cfd606bf74804ed2e"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/info_6.json",
-   "size": 509294,
-   "sha256": "e42562362efd7d97504e2a0faaebeabbf2a40de432735d5b573f6e3dae26c471"
+   "size": 509315,
+   "sha256": "bc3bb75ff5adae08d47606d62265fdd6a9ab0b52fa3af63109d3deee3b3e6e23"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/info_7.json",
-   "size": 717942,
-   "sha256": "ee2e6c3f224c9d901affa942e2fe6de5eaf2929dc868bf4f990d4b49eaa7a30b"
+   "size": 717969,
+   "sha256": "2ffd862c334d92521754a7dfde4b082b8ed6e1d5d175394f2522157f7af354d9"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/info_8.json",
-   "size": 830112,
-   "sha256": "829518ee1edc01c96032d566bba3b9e8d2c223c641b1ad01a338348cb0ca9af5"
+   "size": 830110,
+   "sha256": "2bf16c99f9884b6a778bfb10dde652c1e048f25453a42796b4de4b9d381df9f6"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/info_9.json",
-   "size": 840692,
-   "sha256": "a4e7690051fffd1df24ac96f3c58e6c44a625939f1cb879d3a25c6da326d2d80"
+   "size": 840730,
+   "sha256": "088d965a970fea5b7d42c3a0bde2eb50ecae5f36dc9138d18a2277869f04c844"
   },
   {
    "path": "assets/assets/word_banks/normal/v1/words_10.json",
@@ -1089,7 +1089,7 @@
   {
    "path": "flutter_bootstrap.js",
    "size": 14551,
-   "sha256": "a748c665547a7ed11876eb07b34135e8f74d3a0c5e8a3e74483b7c40f2d8a4c3"
+   "sha256": "e6bc0d90e0f750c094f0c82517cca7072c0ed4e9d969171f810848605d54a563"
   },
   {
    "path": "icons/Icon-192.png",
@@ -1113,8 +1113,8 @@
   },
   {
    "path": "index.html",
-   "size": 4557,
-   "sha256": "07c13681c4e50e6196a59c66f26066a85e573944e23785e76d64cbcdb799be4c"
+   "size": 4726,
+   "sha256": "d6b0782e98268696f7ef7f02d2ae37d78d2c7308ed10aed4c1561ddbeb4222bc"
   },
   {
    "path": "loading_dots.js",
@@ -1123,8 +1123,8 @@
   },
   {
    "path": "main.dart.js",
-   "size": 3070829,
-   "sha256": "7d9184c024e260216eee25a03e0d933acf5688e097c69aa04d0c8382587bbdd6"
+   "size": 3072898,
+   "sha256": "0004fb6a1fdcfd001f05124aa524e458b257b8b15cc8f8ffeb0ccd3c71ead3d5"
   },
   {
    "path": "main.dart.mjs",
@@ -1133,8 +1133,8 @@
   },
   {
    "path": "main.dart.wasm",
-   "size": 2675157,
-   "sha256": "455a4d75fdead4b2a31ba02fa88cec8f345c08a8a96abfcfb387acd805d37b8c"
+   "size": 2678825,
+   "sha256": "68f9c85a5590cceb2c765e0b6f48591f72bf2748c6e624218bbd1a91436b5add"
   },
   {
    "path": "manifest.json",
@@ -1144,7 +1144,7 @@
   {
    "path": "sw_register.js",
    "size": 2377,
-   "sha256": "bb917f1cf8694feff1ddb4638328667e3665822aa449448d077349e5a92cc661"
+   "sha256": "82e97208befa259dfd9256c185588e7702996d5850a78a9e5cbde29bc39c87cc"
   }
  ]
 }

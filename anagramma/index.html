@@ -19,9 +19,11 @@
   <meta charset="UTF-8">
   <!-- Content-Security-Policy: the game loads only from the site serving it.
        'wasm-unsafe-eval' lets the engine compile its WebAssembly; styles
-       are inline attributes and the engine's own. Check the browser
+       are inline attributes and the engine's own. connect-src also allows
+       PostHog's EU ingestion host, the only place usage statistics go, and
+       only if the player switched them on. Check the browser
        console for violations after changing anything here. -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; worker-src 'self' blob:; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://eu.i.posthog.com; worker-src 'self' blob:; base-uri 'self'; form-action 'none'">
 
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Turn chaos into words. One word. Every tile. Can you find it?">
