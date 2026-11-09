@@ -24,7 +24,7 @@
 // build keeps the token, and sw_register.js then does not register this
 // worker at all.
 
-const BUILD_ID = '20261109.98d76df';
+const BUILD_ID = '20261109.be61cf3';
 const PREFIX = 'anagramma-offline-';
 const CACHE = PREFIX + BUILD_ID;
 const MANIFEST = 'offline-manifest.json';
