@@ -57,7 +57,7 @@ _flutter.buildConfig = {"engineRevision":"a804b261645ef8c13eb3d5c44a5c2fb0340c55
 // carries it as a query (main.dart.js, main.dart.wasm and the support
 // runtime). Left as it is (a local build), nothing is added.
 (function () {
-  var buildId = "20261109.4a24c4f";
+  var buildId = "20261109.98d76df";
   if (buildId === "__BUILD_" + "ID__") return;
   var query = "?v=" + encodeURIComponent(buildId);
   var builds = (_flutter.buildConfig && _flutter.buildConfig.builds) || [];
