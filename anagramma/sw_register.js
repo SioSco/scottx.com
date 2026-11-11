@@ -5,13 +5,69 @@
 // swallowed. The game reads `window.anagrammaUpdate`:
 //   ready   true once a complete newer build is waiting
 //   apply() asks it to take over (the page reloads when it does)
+//   supported, checking, failed, latest (the newest published build id),
+//   check() looks now. The page also looks when it is shown again after ten
+//   minutes away, and hourly while it stays open.
 //
 // BUILD_ID is stamped at deploy time (tools/stamp_offline_build.py). A local
 // build keeps the token and registers nothing.
 (function () {
-  var buildId = "20261111.82e4e15";
-  var state = (window.anagrammaUpdate = { ready: false, apply: function () {} });
+  var buildId = "20261111.3769313";
+  var state = (window.anagrammaUpdate = {
+    ready: false,
+    apply: function () {},
+    supported: false,
+    checking: false,
+    failed: false,
+    latest: null,
+    check: function () {},
+  });
   if (buildId === "__BUILD_" + "ID__" || !("serviceWorker" in navigator)) return;
+  state.supported = true;
+  var registration = null;
+  var lastCheck = 0;
+
+  // Asks the worker to look for a new build, and reads the newest published
+  // build id from the manifest (always fetched from the network). A failure
+  // is only noted: the game never depends on this.
+  state.check = function () {
+    if (state.checking) return;
+    state.checking = true;
+    state.failed = false;
+    lastCheck = Date.now();
+    try {
+      if (registration) registration.update().catch(function () {});
+    } catch (e) {}
+    fetch("offline-manifest.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (response) {
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        return response.json();
+      })
+      .then(function (manifest) {
+        if (manifest && typeof manifest.buildId === "string") {
+          state.latest = manifest.buildId;
+        }
+      })
+      .catch(function () {
+        state.failed = true;
+      })
+      .then(function () {
+        state.checking = false;
+      });
+  };
+
+  document.addEventListener("visibilitychange", function () {
+    if (
+      document.visibilityState === "visible" &&
+      registration &&
+      Date.now() - lastCheck > 10 * 60 * 1000
+    ) {
+      state.check();
+    }
+  });
+  setInterval(function () {
+    if (registration) state.check();
+  }, 60 * 60 * 1000);
 
   var reloading = false;
   navigator.serviceWorker.addEventListener("controllerchange", function () {
@@ -50,9 +106,10 @@
     setTimeout(function () {
       navigator.serviceWorker
         .register("anagramma_sw.js")
-        .then(function (registration) {
-          watch(registration);
-          return registration.update();
+        .then(function (reg) {
+          registration = reg;
+          watch(reg);
+          state.check();
         })
         .catch(function () {
           /* offline caching is an extra; the game plays without it */
