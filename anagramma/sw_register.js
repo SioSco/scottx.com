@@ -12,7 +12,7 @@
 // BUILD_ID is stamped at deploy time (tools/stamp_offline_build.py). A local
 // build keeps the token and registers nothing.
 (function () {
-  var buildId = "20261111.3769313";
+  var buildId = "20261122.6794a9c";
   var state = (window.anagrammaUpdate = {
     ready: false,
     apply: function () {},

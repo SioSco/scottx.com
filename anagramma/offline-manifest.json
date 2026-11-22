@@ -1,10 +1,10 @@
 {
- "buildId": "20261111.3769313",
+ "buildId": "20261122.6794a9c",
  "files": [
   {
    "path": ".last_build_id",
    "size": 32,
-   "sha256": "43b35ea8a525aaa4eb89eb9aa2032a565099fc5ea5e46163320472fcd7741098"
+   "sha256": "0bee0a9021b7c32450943a45607b9c949a32518f5bc4c48b88fd08467c2b0c8b"
   },
   {
    "path": "assets/AssetManifest.bin",
@@ -518,8 +518,8 @@
   },
   {
    "path": "assets/assets/word_banks/foods/v1/info.json",
-   "size": 4127,
-   "sha256": "7a35f85d4916c8231ea5f2576c2903e5ea16fc45c1fec170844f15732787dfe7"
+   "size": 22188,
+   "sha256": "f7ae80ea7edd320ded921f58b2d9a049fee4063670f572463823d846f003d4f7"
   },
   {
    "path": "assets/assets/word_banks/foods/v1/words_10.json",
@@ -1089,7 +1089,7 @@
   {
    "path": "flutter_bootstrap.js",
    "size": 14551,
-   "sha256": "45fe3fa57f30d1d186ec2863cc0d602e1940b10ea64f1a95254f7a8a2e846c05"
+   "sha256": "71f7de307a350191375480ffcdd706eeca24cc3e384bc5b9d244f17a86828894"
   },
   {
    "path": "icons/Icon-192.png",
@@ -1123,18 +1123,18 @@
   },
   {
    "path": "main.dart.js",
-   "size": 3082255,
-   "sha256": "eab25df46bd9b6abeddb3ce42cd992dfb48cc87c2cb8cc8f9428b3e708969ada"
+   "size": 3130969,
+   "sha256": "308585dd43cf1e18091ae747281504a9fd108cdbaec8fe4f6c923a62e41a923d"
   },
   {
    "path": "main.dart.mjs",
-   "size": 33937,
-   "sha256": "c73583b1073d4745f32f2a86c74346b8306ba0735b19621ee516318bb545672a"
+   "size": 34017,
+   "sha256": "402099e5e9b3d68d6a23d42186377a87ffe480b0088a3ba7794b78109f8cb95b"
   },
   {
    "path": "main.dart.wasm",
-   "size": 2686277,
-   "sha256": "779c492ce4dc47697e7ec7c02eeaeaf47074d3b4cf9300d7fb0f6e01a5f231d6"
+   "size": 2730376,
+   "sha256": "29f4cd2ebdc858247ec2fee965a644f19ab07162274f9c951af14710d8c845e7"
   },
   {
    "path": "manifest.json",
@@ -1144,7 +1144,7 @@
   {
    "path": "sw_register.js",
    "size": 4049,
-   "sha256": "e99bc5d43442ec657f3dff45653fbb0c0fe9cc57845d423aaff04ce2548c9f96"
+   "sha256": "c92e2cf2bb64f4d1dbee1a07975149f2b6fa0e5d1895b018504182d9e1de7faa"
   }
  ]
 }
