@@ -1,5 +1,7 @@
 {
   "ABDOMINAL": "The muscles of the abdomen.",
+  "ACETABULUM": "The cup-shaped hollow in the hipbone that holds the head of the thighbone.",
+  "ALIMENTARY": "Relating to the digestive tract, the passage that food travels through.",
   "ALVEOLI": "A tiny sac for holding air in the lungs; formed by the terminal dilation of tiny air passageways.",
   "APPENDIX": "A vestigial process that extends from the lower end of the cecum and that resembles a small pouch.",
   "BACKBONE": "The series of vertebrae forming the axis of the skeleton and protecting the spinal cord.",
@@ -7,6 +9,7 @@
   "BRONCHI": "Either of the two main branches of the trachea.",
   "CALCIUM": "A mineral, the main element in bones and teeth.",
   "CALF": "The fleshy back part of the leg below the knee.",
+  "CAPILLARIES": "The tiniest blood vessels, linking arteries to veins.",
   "CAPILLARY": "Any of the minute blood vessels connecting arterioles with venules.",
   "CAPSULE": "A structure that encloses a body part.",
   "CEREBRAL": "Of or relating to the cerebrum or brain.",
@@ -22,6 +25,7 @@
   "HYDRATION": "Taking in enough water to keep the body working properly.",
   "IMMUNE": "Relating to the condition of immunity.",
   "IMMUNITY": "The body's ability to resist an infection or disease.",
+  "INTESTINES": "The long tube below the stomach where food is digested and absorbed.",
   "IRIS": "Muscular diaphragm that controls the size of the pupil.",
   "METABOLISM": "The chemical processes by which the body turns food into energy and builds tissue.",
   "MITOCHONDRIA": "An organelle containing enzymes responsible for producing energy.",
@@ -42,11 +46,13 @@
   "PULSE": "The regular throb of the arteries as the heart pumps blood.",
   "PUPIL": "The contractile aperture in the center of the iris of the eye; resembles a large black dot.",
   "SKELETON": "The hard structure that provides a frame for the body of an animal.",
+  "SPERMATOZOA": "The male reproductive cells.",
   "TEETH": "The hard white structures in the jaws used for biting and chewing.",
   "TEMPLE": "The flat area on either side of the forehead.",
   "THYMUS": "A ductless glandular organ at the base of the neck.",
   "THYROID": "A gland in the neck that makes hormones controlling metabolism.",
   "UREA": "The main nitrogen-containing waste in urine, made in the liver.",
   "VERTEBRAE": "One of the bony segments of the spinal column.",
+  "VESTIBULAR": "Relating to the inner ear's sense of balance.",
   "WRINKLE": "A crease or fold in the skin."
 }

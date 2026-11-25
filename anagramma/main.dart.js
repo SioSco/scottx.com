@@ -31097,7 +31097,7 @@ a3k(a,b){return A.b9V(a,b)},
 b9V(a,b){var s=0,r=A.q(t.N),q,p,o,n
 var $async$a3k=A.m(function(c,d){if(c===1)return A.n(d,r)
 for(;;)switch(s){case 0:p=$.zb
-o=A.baT(p.u1(a),"20261125.c393396")
+o=A.baT(p.u1(a),"20261125.35b063b")
 s=3
 return A.f(A.eQ(v.G.window.fetch(o),t.m),$async$a3k)
 case 3:n=d
@@ -51978,7 +51978,7 @@ break A}s=l
 break A}r=j===B.pT
 q=j===B.pR||j===B.pS
 p=t.p
-o=A.a([A.a2("Anagramma 0.9.0 ("+B.c.oe("20261125.c393396",".","\xb7")+")",l,l,l,l,l,B.r,l,l,l)],p)
+o=A.a([A.a2("Anagramma 0.9.0 ("+B.c.oe("20261125.35b063b",".","\xb7")+")",l,l,l,l,l,B.r,l,l,l)],p)
 if(s!=null)o.push(A.a2(s,l,l,l,l,l,B.bA,l,l,l))
 s=A.c3(A.b8(o,B.J,l,B.j,B.l),1)
 o=r?B.o2:B.kj
@@ -51989,7 +51989,7 @@ return A.bk(A.a([s,new A.iS(!0,o,n,m,B.aeF)],p),B.n,l,B.j,B.l)}}
 A.U_.prototype={
 C(a){var s=null,r=A.a([B.a32,B.aD],t.p)
 if($.dm().x.zs("supported"))r.push(B.agP)
-else r.push(A.a2("Anagramma 0.9.0 ("+B.c.oe("20261125.c393396",".","\xb7")+")",s,s,s,s,s,B.r,s,s,s))
+else r.push(A.a2("Anagramma 0.9.0 ("+B.c.oe("20261125.35b063b",".","\xb7")+")",s,s,s,s,s,B.r,s,s,s))
 r.push(B.aD)
 r.push(A.a2("What\u2019s new: copy and paste all your progress from Settings, a clearer run header and Help, goals shown to new players, a shared result that names its day, a bigger board on desktop, new toggles and menus, and clear messages if the word lists can\u2019t load.",s,s,s,s,s,B.bA,s,s,s))
 r.push(B.aD)
@@ -54633,7 +54633,7 @@ try{if(!$.dm().x.zs("supported"))return B.Gq}catch(s){return B.Gq}if(p.ch)return
 if(p.dx)return B.pR
 r=p.db
 q=r==null
-if(!q&&r!=="20261125.c393396")return B.pS
+if(!q&&r!=="20261125.35b063b")return B.pS
 if(p.dy)return B.Gs
 return q?B.acb:B.Gr},
 arb(){var s,r,q=this,p={}
@@ -107098,12 +107098,12 @@ B.i7=new A.h(4294967309)
 B.kD=new A.h(8589935117)
 B.uY=s([B.i7,B.kD],t.w3)
 B.fh=new A.hf(B.uY,"Enter","enter",5,"enter")
-B.ahg=new A.r2(2,"nature")
-B.tS=new A.cJ("Colours","colours",!1,"lexicon.colours",301,"Colours and shades.",8,"colours")
 B.ahe=new A.r2(0,"general")
 B.bL=new A.cJ("Dictionary","normal",!0,"lexicon.dictionary",101138,"The complete English dictionary.",2,"normal")
 B.ka=new A.cJ("Spoken","spoken",!0,"lexicon.spoken",10373,"Words you hear and say.",0,"spoken")
 B.cU=new A.cJ("Written","written",!0,"lexicon.written",25499,"Words you read and write.",1,"written")
+B.ahg=new A.r2(2,"nature")
+B.tS=new A.cJ("Colours","colours",!1,"lexicon.colours",310,"Colours and shades.",8,"colours")
 B.ck=new A.fT("Ladder","Earn each step with an unassisted solve. The first Hint leaves you in place; further Hints remove steps and can relegate you one level. A word can cause only one relegation.","path.ladder",1,"ladder")
 B.bv=new A.fT("Journey","Follow a one-way path. Every completed step moves you closer to the final level, and Hints never cost progress.","path.journey",0,"journey")
 B.P=new A.C8(0,"intro")
@@ -107605,6 +107605,19 @@ B.aed=new A.M("runHeaderHintsCloseButton",t.O)
 B.afv=new A.eu(B.aK,null,B.aed,null)
 B.W6=s([B.afv],t.hC)
 B.uW=s([B.rI,B.rJ,B.rO,B.rP],t.g)
+B.ahf=new A.r2(1,"challenge")
+B.Qe=new A.cJ("Collectives","collective",!1,"lexicon.collectives",302,"Collective nouns, like a murder of crows.",3,"collective")
+B.Qf=new A.cJ("Animals","animals",!1,"lexicon.animals",420,"Animals, birds, fish and other creatures.",4,"animals")
+B.Qa=new A.cJ("Plants","plants",!1,"lexicon.plants",431,"Plants, trees and flowers.",5,"plants")
+B.Q8=new A.cJ("Foods","foods",!1,"lexicon.foods",365,"Food and drink.",6,"foods")
+B.Qd=new A.cJ("Body","body",!1,"lexicon.body",401,"Parts of the human body.",7,"body")
+B.ahh=new A.r2(3,"geography")
+B.Qb=new A.cJ("Countries","countries",!1,"lexicon.countries",183,"Countries and territories of the world.",9,"countries")
+B.Qc=new A.cJ("Capitals","capitals",!1,"lexicon.capitals",195,"Capital cities of the world.",10,"capitals")
+B.Q7=new A.cJ("Cities","cities",!1,"lexicon.cities",131,"Major cities of the world, by population.",11,"cities")
+B.ahi=new A.r2(4,"entertainment")
+B.Q9=new A.cJ("Sports","sports",!1,"lexicon.sports",331,"Sports and games.",12,"sports")
+B.cD=s([B.ka,B.cU,B.bL,B.Qe,B.Qf,B.Qa,B.Q8,B.Qd,B.tS,B.Qb,B.Qc,B.Q7,B.Q9],A.ae("w<cJ>"))
 B.a7G=new A.v(!0,null,null,null,null,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a6m=new A.d9("\u200a",null,null,B.am,null,null,null,null,null,null,B.a7G)
 B.cL=new A.tD(1)
@@ -107762,19 +107775,6 @@ B.Kh=new A.bw(0,B.T,B.Nt,B.ij,5)
 B.oh=s([B.Kh],t.V)
 B.i3=s([B.e5,B.dE,B.j1,B.j2,B.m7],t.QP)
 B.WX=s(["**Solved:** You found the target word. It turns green and its definition appears.","**Anagram:** You found a different real word. It turns blue and its definition appears. Undo or Clear to keep trying.","**Misprint:** The letters do not spell a word. They turn terracotta and are struck through. Undo or Clear to try again."],t.s)
-B.ahf=new A.r2(1,"challenge")
-B.Qf=new A.cJ("Collectives","collective",!1,"lexicon.collectives",292,"Collective nouns, like a murder of crows.",3,"collective")
-B.Qc=new A.cJ("Animals","animals",!1,"lexicon.animals",322,"Animals, birds, fish and other creatures.",4,"animals")
-B.Qd=new A.cJ("Plants","plants",!1,"lexicon.plants",325,"Plants, trees and flowers.",5,"plants")
-B.Qe=new A.cJ("Foods","foods",!1,"lexicon.foods",299,"Food and drink.",6,"foods")
-B.Q9=new A.cJ("Body","body",!1,"lexicon.body",346,"Parts of the human body.",7,"body")
-B.ahh=new A.r2(3,"geography")
-B.Qa=new A.cJ("Countries","countries",!1,"lexicon.countries",183,"Countries and territories of the world.",9,"countries")
-B.Qb=new A.cJ("Capitals","capitals",!1,"lexicon.capitals",195,"Capital cities of the world.",10,"capitals")
-B.Q7=new A.cJ("Cities","cities",!1,"lexicon.cities",131,"Major cities of the world, by population.",11,"cities")
-B.ahi=new A.r2(4,"entertainment")
-B.Q8=new A.cJ("Sports","sports",!1,"lexicon.sports",300,"Sports and games.",12,"sports")
-B.cD=s([B.ka,B.cU,B.bL,B.Qf,B.Qc,B.Qd,B.Qe,B.Q9,B.tS,B.Qa,B.Qb,B.Q7,B.Q8],A.ae("w<cJ>"))
 B.X_=s(["ACORN","BADGER","BREEZE","COMET","FALCON","FOREST","GLACIER","HARBOR","ISLAND","JOURNEY","KESTREL","LANTERN","MEADOW","OTTER","PEBBLE","RIVER","SPARROW","THISTLE","TIGER","VALLEY","WILLOW","ZEPHYR"],t.s)
 B.US=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.Wm=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
@@ -109502,10 +109502,10 @@ B.Fq=new A.jk(B.uH,A.baw())
 B.eD=new A.jk(B.bw,A.bar())
 B.Fr=new A.jk(B.fl,A.bav())
 B.lq=new A.jk(B.fm,A.bau())
-B.cJ=new A.jk(B.cD,A.bat())
 B.Wl=s([B.bG,B.j4,B.j3,B.eM],A.ae("w<lO>"))
 B.a5s=new A.jk(B.Wl,A.b8m())
 B.Fs=new A.jk(B.uI,A.bas())
+B.cJ=new A.jk(B.cD,A.bat())
 B.dx=new A.jk(B.eo,A.bax())
 B.b5=new A.FB(0,"loose")
 B.Ft=new A.FB(1,"expand")
