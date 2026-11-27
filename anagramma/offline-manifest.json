@@ -1,10 +1,10 @@
 {
- "buildId": "20261127.9534237",
+ "buildId": "20261127.3001a4c",
  "files": [
   {
    "path": ".last_build_id",
    "size": 32,
-   "sha256": "039adaee95896ced8646d99e3f9df2d4eac210155dbab59753e3540aa68275d0"
+   "sha256": "2bf03541a314a8d8cd91c546edb2dca6b7d2a6f7ee689ff4e56d91924c6c3e15"
   },
   {
    "path": "assets/AssetManifest.bin",
@@ -1089,7 +1089,7 @@
   {
    "path": "flutter_bootstrap.js",
    "size": 14551,
-   "sha256": "3744c733b0f166742ccd0a78546809dddb4ca51dd4cd4d82ee7c7929ef58cf53"
+   "sha256": "a1b319c4f1674c7d266ab2978c885308e16e3917cb563b530728dd24bdcadb55"
   },
   {
    "path": "icons/Icon-192.png",
@@ -1123,8 +1123,8 @@
   },
   {
    "path": "main.dart.js",
-   "size": 3138305,
-   "sha256": "25e2c9335ee14af34146bc2215ac140bed7230a3399e56aa16f62cfb261156f2"
+   "size": 3138126,
+   "sha256": "7615bcabd72a30031dd6095c10fc11c1af15b624cf2e312657c62448445cc8e2"
   },
   {
    "path": "main.dart.mjs",
@@ -1133,8 +1133,8 @@
   },
   {
    "path": "main.dart.wasm",
-   "size": 2739769,
-   "sha256": "af94d959841a13afa500c17a16fe99db84470d2131da331404179ff4a779df4e"
+   "size": 2739555,
+   "sha256": "d3264e799f1ed5cad59c148bca94fd4f900bffbd34637124f6732c7425c9be0a"
   },
   {
    "path": "manifest.json",
@@ -1144,7 +1144,7 @@
   {
    "path": "sw_register.js",
    "size": 4049,
-   "sha256": "6243eb6f97c095ef51d2fdeb271974f0a4e9cafffc463c8b177b44d24f4fd5f7"
+   "sha256": "44005ee23e7600da9cbaabe1680efc3d64c2975c0ecd1cf4d9dc8a8a2ff24cf0"
   }
  ]
 }
